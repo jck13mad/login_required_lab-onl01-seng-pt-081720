@@ -6,5 +6,7 @@ class SecretsController < ApplicationController
   
   private 
   
-  
+  def require_login 
+    
+  end
 end
