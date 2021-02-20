@@ -7,6 +7,6 @@ class SecretsController < ApplicationController
   private 
   
   def require_login 
-    
+    unless session
   end
 end
